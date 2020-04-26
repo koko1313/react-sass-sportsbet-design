@@ -1,47 +1,17 @@
 .navbar {
-    padding: 0;
-    @include media-breakpoint-down(sm) {
-        padding: 0.5rem 1rem;
+    padding: 1rem 0;
+    background-color: theme-color("container-bg");
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-text {
+        padding: 0;
     }
 }
-.navbar-dark {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.07);
-    .navbar-brand {
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        .project-name {
-            font-size: $font-size-md;
-        }
-        img {
-            height: 40px;
-            width: auto;
-            padding-left: 10px;
-        }
 
-    }
-
-    .navbar-nav {
-        .nav-link {
-            font-size: $font-size-md;
-            font-weight: $font-weight-semibold;
-            color: hsla(0,0%,100%,.7);
-            padding: 1rem .75rem;
-            border-top: 3px solid transparent;
-            border-bottom: 3px solid transparent;
-            &:hover, &.active {
-                border-bottom: 3px solid rgba(250, 153, 28, .9);
-                color: rgba(250, 153, 28, .9);
-                @include media-breakpoint-down(sm) {
-                    border-bottom: 3px solid transparent;
-                }
-            }
-        }
-        @include media-breakpoint-down(sm) {
-            .nav-item + .nav-item {
-                border-top: 1px solid rgba($white, 0.2);
-            }
-        }
-
-    }
-
+.navbar-nav {
+    height: 44px;
 }

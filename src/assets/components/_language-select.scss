@@ -1,0 +1,10 @@
+.language-select {
+    padding: 0.5625rem 2.5rem 0.5625rem 0.9375rem;
+    height: 2.75rem;
+    max-width: 100%;
+
+    &:hover {
+        border-color: theme-color("border-light");
+        cursor: pointer;
+    }
+}

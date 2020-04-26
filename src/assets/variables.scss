@@ -1,33 +1,41 @@
 $fa-font-path: "~font-awesome/fonts";
 
+$body-bg: #232A33;
 
-$body-bg: #efefef;
-
-$container-max-widths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1240px
-);
+// $container-max-widths: (
+//     sm: 540px,
+//     md: 720px,
+//     lg: 960px,
+//     xl: 1240px
+// );
 
 $theme-colors: (
-    "primary": #fa991c,
-    "primary-dark": #c97c18,
-    "action": #ffd900,
-    "secondary": #687b86,
-    "action-secondary": #ff8f2b,
-    "dark-overlay": #292d29,
-    "title": #666666,
-    "border-light": #e6e6e6,
-    "border-ultra-light": #f1f1f1,
-    "section-bg": #ffffff,
-    "white": #ffffff,
+    "container-bg": #1A212A,
+    "border-light": #474D52,
+    "border-dark": #31373F,
+    "secondary": #8697A2,
+    // "primary": #fa991c,
+    // "primary-dark": #c97c18,
+    // "action": #ffd900,
+    // "action-secondary": #ff8f2b,
+    // "dark-overlay": #292d29,
+    // "title": #666666,
+    // "border-light": #e6e6e6,
+    // "border-ultra-light": #f1f1f1,
 );
 
-$grid-gutter-width: 20px; // хубаво е тук да е в px, за да ако потребителя си променя шрифта, това да не промени разстоянието между елементите
+// bootstrap class custom-select variables
+$custom-select-color: theme-color("secondary");
+$custom-select-bg: theme-color("container-bg");
+$custom-select-border-color: theme-color("border-dark");
+$custom-select-border-radius: 6.25rem;
+$custom-select-focus-border-color: none;
+
+
+// $grid-gutter-width: 20px; // хубаво е тук да е в px, за да ако потребителя си променя шрифта, това да не промени разстоянието между елементите
 
 // Font weight
-$font-weight-semibold: 600;
+// $font-weight-semibold: 600;
 
 // Font sizes
 $font-size-sm: 0.75rem;
@@ -40,25 +48,14 @@ $font-size-xxlg: 2rem;
 // Override fonts
 $font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-serif: Georgia, 'Times New Roman', Times, serif;
-$font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono',
-'Courier New', monospace;
+$font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 $font-family-base: $font-family-sans-serif;
 
 // Border ragius
-$border-radius-xlg: .5rem;
-$border-radius-xxlg: 1rem;
+// $border-radius-xlg: .5rem;
+// $border-radius-xxlg: 1rem;
 
 
 // Buttons
-$btn-border-radius: 10rem;
-$btn-padding-x: 1.25rem;
-
-
-// Components
-$card-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-
-// Card
-$card-spacer-y: .75rem;
-$card-spacer-x: .75rem;
-$card-border-color: transparent;
-$card-border-radius: .25rem;
+// $btn-border-radius: 10rem;
+// $btn-padding-x: 1.25rem;
