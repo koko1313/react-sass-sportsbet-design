@@ -6,8 +6,11 @@
 // Customize Bootstrap Variables
 @import "./variables";
 
-// Import custom font from Google
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic');
+// Import custom font
+@font-face {
+    font-family: 'Averta Std';
+    src: url('./fonts/Averta_Std.ttf');
+}
 
 // Load Bootstrap
 @import "~bootstrap/scss/bootstrap";
