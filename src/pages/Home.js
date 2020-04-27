@@ -1,25 +1,25 @@
 import React from 'react';
+import PartnersLogoList from '../components/PartnersLogoList';
 
-class Home extends React.Component {
+const Home = () => {
 
+    return <>
+        <PartnersLogoList />
 
-    render() {
-        return <>
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-            
-        </>
-    }
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
+        
+    </>
 }
 
 

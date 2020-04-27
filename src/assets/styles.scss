@@ -15,6 +15,7 @@
 
 // Bootstrap components override
 @import "bootstrap-components/navbar";
+@import "bootstrap-components/container";
 
 // Font awesome
 @import "~font-awesome/scss/font-awesome";
@@ -22,3 +23,4 @@
 
 // Custom components
 @import "./components/language-select";
+@import "./components/partner-logo-list";

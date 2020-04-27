@@ -12,7 +12,7 @@ const Layout = props => {
   return (
     <>
       <Navbar></Navbar>
-      <div className="container pt-5">
+      <div className="container">
         {props.children}
       </div>
     </>
