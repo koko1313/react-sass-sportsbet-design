@@ -5,18 +5,16 @@ import { ReactComponent as officialShirtSponsor }  from '../../assets/images/off
 
 const PartnersLogoList = () => {
 
-    console.log(mainClubParenrLogo)
-
     return <div className="partners-logo-list d-flex align-items-center">
         <SVGLogo 
             image = {mainClubParenrLogo}
             label = "Main Club Partner"
-            href = "/" />
+            href = "/#" />
 
         <SVGLogo 
             image = {officialShirtSponsor}
             label = "Official Shirt Sponsor"
-            href = "/" />
+            href = "/#" />
     </div>;
 }
 
