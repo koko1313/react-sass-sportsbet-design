@@ -1,6 +1,10 @@
 .partners-logo-list {
     padding: 1.5rem 0px;
 
+    @include media-breakpoint-down(md) {
+        display: none !important;
+    }
+
     svg {
         width: initial;
     }
@@ -8,7 +12,7 @@
     a {
         text-decoration: none;
         transition: opacity 0.3s ease 0s;
-        
+
         &:hover {
             opacity: 0.8;
         }
