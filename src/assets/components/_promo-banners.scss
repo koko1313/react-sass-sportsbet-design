@@ -1,0 +1,36 @@
+.promo-banner {
+    position: relative;
+    min-height: 18.25rem;
+    overflow: hidden;
+    background-color: theme-color("container-bg");
+    border-radius: 1rem;
+    margin-bottom: $grid-gutter-width;
+
+    img {
+        object-fit: cover;
+        object-position: center right;
+    }
+
+    .promo-banner-content {
+        position: absolute;
+        // top: 0;
+        padding: 2.5rem 0 2.5rem 2.5rem;
+        height: 100%;
+        width: 50%;
+        align-items: flex-start;
+    }
+
+    .promo-banner-title {
+        color: $white;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .promo-banner-description {
+        color: theme-color("text-secondary");
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin: 1rem 0px;
+    }
+}
