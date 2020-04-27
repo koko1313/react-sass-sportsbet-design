@@ -13,15 +13,10 @@ $theme-colors: (
     "container-bg": #1A212A,
     "border-light": #474D52,
     "border-dark": #31373F,
-    "secondary": #8697A2,
-    // "primary": #fa991c,
-    // "primary-dark": #c97c18,
-    // "action": #ffd900,
-    // "action-secondary": #ff8f2b,
-    // "dark-overlay": #292d29,
-    // "title": #666666,
-    // "border-light": #e6e6e6,
-    // "border-ultra-light": #f1f1f1,
+    "text-secondary": #8697A2,
+    "secondary": #31373F,
+    "primary": #0CD664,
+    "primary-light": #66E59E,
 );
 
 // bootstrap class custom-select variables
@@ -30,6 +25,19 @@ $custom-select-bg: theme-color("container-bg");
 $custom-select-border-color: theme-color("border-dark");
 $custom-select-border-radius: 6.25rem;
 $custom-select-focus-border-color: none;
+
+// bootstrap class btn variables
+$btn-font-weight: 600 !important;
+$btn-line-height: 1.0625rem !important;
+$btn-border-radius: 6.25rem !important;
+
+$btn-font-size: 0.875rem;
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 2rem;
+
+$btn-padding-y-lg: 0.75rem;
+$btn-padding-x-lg: 2.5rem;
+$btn-font-size-lg: 1rem;
 
 
 // $grid-gutter-width: 20px; // хубаво е тук да е в px, за да ако потребителя си променя шрифта, това да не промени разстоянието между елементите

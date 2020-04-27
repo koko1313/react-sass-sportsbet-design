@@ -1,0 +1,23 @@
+.btn {
+    border: 1px solid transparent !important;
+    transition: none;
+    display: inline-block;
+
+    +.btn {
+        margin-left: 1rem;
+    }
+}
+
+.btn-primary {
+    @include hover() {
+        background-color: theme-color("primary-light") !important;
+    }
+}
+
+.btn-secondary {
+    color: theme-color("text-secondary");
+
+    @include hover() {
+        background-color: theme-color("secondary");
+    }
+}

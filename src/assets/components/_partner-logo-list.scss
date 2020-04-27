@@ -1,6 +1,4 @@
 .partners-logo-list {
-    padding: 1.5rem 0px;
-
     @include media-breakpoint-down(md) {
         display: none !important;
     }
@@ -20,11 +18,11 @@
 
     .partner-logo {
         border-right: 1px solid theme-color("border-dark");
-        color: theme-color("secondary");
         padding: 0 1rem;
     }
 
     .partner-logo-label {
+        color: theme-color("text-secondary");
         margin-left: 1rem;
         font-size: 0.75rem;
         line-height: 1rem;
