@@ -1,0 +1,19 @@
+.login-register-buttons {
+    @include media-breakpoint-down(md) {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: theme-color("container-bg");
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.216) 0px -1.2px 3.6px, rgba(0, 0, 0, 0.263) 0px -6.4px 14.4px;
+        border-radius: 1rem 1rem 0px 0px;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+        .btn {
+            flex: 1;
+        }
+    }
+}
