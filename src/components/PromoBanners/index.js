@@ -1,7 +1,7 @@
 import React from 'react';
 import PromoBanner from './PromoBanner';
-import CardSportsImage from '../../assets/images/card-sports.png';
-import CardCasinoImage from '../../assets/images/card-casino.png';
+import sportsBanner from '../../assets/images/promo-banners/sports-banner.png';
+import casinoBanner from '../../assets/images/promo-banners/casino-banner.png';
 
 const PromoBanners = () => {
 
@@ -10,7 +10,7 @@ const PromoBanners = () => {
             <div className="row">
                 <div className="col-md">
                     <PromoBanner 
-                        image = {CardSportsImage}
+                        image = {sportsBanner}
                         title = "SPORTS"
                         description = "Price Boost every day on all sports"
                         buttonHref = "/#"
@@ -19,7 +19,7 @@ const PromoBanners = () => {
                 </div>
                 <div className="col-md">
                     <PromoBanner 
-                        image = {CardCasinoImage}
+                        image = {casinoBanner}
                         title = "CASINO"
                         description = "Offering the best slots and live dealer games"
                         buttonHref = "/#"

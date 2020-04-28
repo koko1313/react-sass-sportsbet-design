@@ -18,10 +18,12 @@
             border-style: solid;
             border-color: transparent;
             border-image: initial;
+        }
+    }
 
-            &:hover {
-                background-color: theme-color("secondary-light");
-            }
+    &:hover {
+        .sports-categories-buttons::-webkit-scrollbar-thumb{
+            background-color: theme-color("secondary-light");
         }
     }
 

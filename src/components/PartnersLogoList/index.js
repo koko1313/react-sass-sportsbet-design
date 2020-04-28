@@ -1,7 +1,7 @@
 import React from 'react';
 import SVGLogo from './SVGLogo';
-import { ReactComponent as mainClubParenrLogo }  from '../../assets/images/main-club-partner-logo.svg';
-import { ReactComponent as officialShirtSponsor }  from '../../assets/images/official-shirt-sponsor-logo.svg';
+import { ReactComponent as mainClubParenrLogo }  from '../../assets/images/partners-logos/main-club-partner-logo.svg';
+import { ReactComponent as officialShirtSponsor }  from '../../assets/images/partners-logos/official-shirt-sponsor-logo.svg';
 
 const PartnersLogoList = () => {
 
