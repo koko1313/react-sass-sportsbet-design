@@ -1,0 +1,24 @@
+.horizontal-scrollable-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        background-clip: content-box;
+        border-radius: 6.25rem;
+        border-width: 3px;
+        border-style: solid;
+        border-color: transparent;
+        border-image: initial;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        background-color: theme-color("secondary-light");
+    }
+}

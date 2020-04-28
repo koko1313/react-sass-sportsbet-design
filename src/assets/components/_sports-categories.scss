@@ -1,60 +1,31 @@
-.sports-categories {
 
-    .sports-categories-buttons {
-        overflow-x: auto;
-        overflow-y: hidden;
-
-        &::-webkit-scrollbar {
-            width: 12px;
-            height: 12px;
-            cursor: pointer;
-        }
-
-        &::-webkit-scrollbar-thumb {
-            background-color: transparent;
-            background-clip: content-box;
-            border-radius: 6.25rem;
-            border-width: 3px;
-            border-style: solid;
-            border-color: transparent;
-            border-image: initial;
-        }
+.sport-category {
+    + .sport-category {
+        margin-left: 0.5rem;
     }
 
-    &:hover {
-        .sports-categories-buttons::-webkit-scrollbar-thumb{
-            background-color: theme-color("secondary-light");
-        }
-    }
-
-    .sport-category {
-        + .sport-category {
-            margin-left: 0.5rem;
-        }
-
-        a:hover {
-            text-decoration: none !important;
-            .sport-category-title {
-                color: $white;
-            }
-        }
-
-        .sport-category-image {
-            padding: 1rem;
-            background-color: theme-color("container-bg");
-            border-radius: 25%;
-            width: 3.5rem;
-            height: 3.5rem;
-        }
-
+    a:hover {
+        text-decoration: none !important;
         .sport-category-title {
-            color: theme-color("text-secondary");
-            font-size: 0.6875rem;
-            max-width: 3.5rem;
-            text-align: center;
-            line-height: 1rem;
-            margin-top: 0.5rem;
-            letter-spacing: -0.1px;
+            color: $white;
         }
+    }
+
+    .sport-category-image {
+        padding: 1rem;
+        background-color: theme-color("container-bg");
+        border-radius: 25%;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .sport-category-title {
+        color: theme-color("text-secondary");
+        font-size: 0.6875rem;
+        max-width: 3.5rem;
+        text-align: center;
+        line-height: 1rem;
+        margin-top: 0.5rem;
+        letter-spacing: -0.1px;
     }
 }

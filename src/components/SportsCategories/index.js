@@ -20,7 +20,7 @@ const SportsCategories = () => {
     return <div className="sports-categories">
         <h3>Sports categories</h3>
         
-        <div className="sports-categories-buttons d-flex">
+        <div className="sports-categories-buttons horizontal-scrollable-container d-flex">
             <SportCategory 
                 image = {esportsIcon}
                 title = "eSoccer"
