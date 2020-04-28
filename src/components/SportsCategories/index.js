@@ -23,16 +23,6 @@ const SportsCategories = () => {
         
         <div className="sports-categories-buttons horizontal-scrollable-container d-flex">
             <SportCategory 
-                image = {esportsIcon}
-                title = "eSoccer"
-                href = "/#" />
-
-            <SportCategory 
-                image = {basketballIcon}
-                title = "eNBA"
-                href = "/#" />
-
-            <SportCategory 
                 image = {footballIcon}
                 title = "Soccer"
                 href = "/#" />
@@ -43,8 +33,13 @@ const SportsCategories = () => {
                 href = "/#" />
 
             <SportCategory 
-                image = {tableTennisIcon}
-                title = "TT Setka Cup"
+                image = {tennisIcon}
+                title = "SetTennis"
+                href = "/#" />
+
+            <SportCategory 
+                image = {tennisIcon}
+                title = "Tennis"
                 href = "/#" />
 
             <SportCategory 
@@ -52,11 +47,6 @@ const SportsCategories = () => {
                 title = "Basketball"
                 href = "/#" />
                 
-            <SportCategory 
-                image = {tennisIcon}
-                title = "Tennis"
-                href = "/#" />
-            
             <SportCategory 
                 image = {esportsIcon}
                 title = "CS:GO"
@@ -88,6 +78,11 @@ const SportsCategories = () => {
                 href = "/#" />
 
             <SportCategory 
+                image = {iceHockeyIcon}
+                title = "Ice Hockey"
+                href = "/#" />
+
+            <SportCategory 
                 image = {badmintonIcon}
                 title = "Badminton"
                 href = "/#" />
@@ -100,16 +95,6 @@ const SportsCategories = () => {
             <SportCategory 
                 image = {dartsIcon}
                 title = "Darts"
-                href = "/#" />
-
-            <SportCategory 
-                image = {iceHockeyIcon}
-                title = "eNHL"
-                href = "/#" />
-
-            <SportCategory 
-                image = {iceHockeyIcon}
-                title = "Ice Hockey"
                 href = "/#" />
 
             <SportCategory 
