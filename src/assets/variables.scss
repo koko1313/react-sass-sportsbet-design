@@ -15,9 +15,16 @@ $theme-colors: (
     "border-dark": #31373F,
     "text-secondary": #8697A2,
     "secondary": #31373F,
+    "secondary-light": #4C5159,
     "primary": #0CD664,
     "primary-light": #66E59E,
 );
+
+// bootstrap headings
+$h3-font-size: 1.25rem;
+$headings-font-weight: 400;
+$headings-color: $white;
+$headings-line-height: 2rem;
 
 // bootstrap class custom-select variables
 $custom-select-color: theme-color("secondary");

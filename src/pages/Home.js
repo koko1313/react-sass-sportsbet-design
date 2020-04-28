@@ -2,6 +2,7 @@ import React from 'react';
 import PartnersLogoList from '../components/PartnersLogoList';
 import LoginRegisterButtons from '../components/LoginRegisterButtons';
 import PromoBanners from '../components/PromoBanners';
+import SportsCategories from '../components/SportsCategories';
 
 const Home = () => {
 
@@ -18,6 +19,12 @@ const Home = () => {
         <div className="row">
             <div className="col">
                 <PromoBanners />
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col">
+                <SportsCategories />
             </div>
         </div>
 
