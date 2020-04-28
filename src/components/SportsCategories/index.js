@@ -4,6 +4,7 @@ import { ReactComponent as basketballIcon }  from '../../assets/images/sports-ic
 import { ReactComponent as footballIcon }  from '../../assets/images/sports-icons/football-icon.svg';
 import { ReactComponent as tableTennisIcon }  from '../../assets/images/sports-icons/table-tennis-icon.svg';
 import { ReactComponent as tennisIcon }  from '../../assets/images/sports-icons/tennis-icon.svg';
+import { ReactComponent as badmintonIcon }  from '../../assets/images/sports-icons/badminton-icon.svg';
 import { ReactComponent as baseballIcon }  from '../../assets/images/sports-icons/baseball-icon.svg';
 import { ReactComponent as dartsIcon }  from '../../assets/images/sports-icons/darts-icon.svg';
 import { ReactComponent as iceHockeyIcon }  from '../../assets/images/sports-icons/ice-hockey-icon.svg';
@@ -12,7 +13,7 @@ import { ReactComponent as americanFootballIcon }  from '../../assets/images/spo
 import { ReactComponent as popularSportsIcon }  from '../../assets/images/sports-icons/popular-sports-icon.svg';
 import { ReactComponent as golfIcon }  from '../../assets/images/sports-icons/golf-icon.svg';
 import { ReactComponent as mmaIcon }  from '../../assets/images/sports-icons/mma-icon.svg';
-import { ReactComponent as specialSportsIcon }  from '../../assets/images/sports-icons/special-sports-icon.svg';
+import { ReactComponent as snookerIcon }  from '../../assets/images/sports-icons/snooker-icon.svg';
 import SportCategory from './SportCategory';
 
 const SportsCategories = () => {
@@ -87,6 +88,11 @@ const SportsCategories = () => {
                 href = "/#" />
 
             <SportCategory 
+                image = {badmintonIcon}
+                title = "Badminton"
+                href = "/#" />
+
+            <SportCategory 
                 image = {baseballIcon}
                 title = "Baseball"
                 href = "/#" />
@@ -94,6 +100,11 @@ const SportsCategories = () => {
             <SportCategory 
                 image = {dartsIcon}
                 title = "Darts"
+                href = "/#" />
+
+            <SportCategory 
+                image = {iceHockeyIcon}
+                title = "eNHL"
                 href = "/#" />
 
             <SportCategory 
@@ -127,14 +138,14 @@ const SportsCategories = () => {
                 href = "/#" />
 
             <SportCategory 
-                image = {popularSportsIcon}
-                title = "Specials"
+                image = {snookerIcon}
+                title = "Snooker"
                 href = "/#" />
 
             <SportCategory 
-                image = {specialSportsIcon}
-                title = "Sportsbet Specials"
-                href = "/#" />
+                image = {popularSportsIcon}
+                title = "Specials"
+                href = "/#" />            
         </div>
     </div>
 }
