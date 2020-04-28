@@ -3,6 +3,7 @@ import PartnersLogoList from '../components/PartnersLogoList';
 import LoginRegisterButtons from '../components/LoginRegisterButtons';
 import PromoBanners from '../components/PromoBanners';
 import SportsCategories from '../components/SportsCategories';
+import PopularThemes from '../components/PopularThemes';
 
 const Home = () => {
 
@@ -25,6 +26,12 @@ const Home = () => {
         <div className="row">
             <div className="col">
                 <SportsCategories />
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col">
+                <PopularThemes />
             </div>
         </div>
 
