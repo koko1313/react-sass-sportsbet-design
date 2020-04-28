@@ -1,3 +1,9 @@
+.popular-themes-buttons {
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid theme-color("border-dark");
+}
+
 .popular-theme {
     color: $white;
     width: 15.75rem !important;
