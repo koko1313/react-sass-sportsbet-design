@@ -2,7 +2,7 @@
     padding: 1rem 0;
     background-color: theme-color("container-bg");
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
         border-radius: 0 0 1rem 1rem;
         padding: 1rem;
     }

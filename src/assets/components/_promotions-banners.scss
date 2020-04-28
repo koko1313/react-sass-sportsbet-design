@@ -1,0 +1,91 @@
+.promotion-banner {
+    transition: all 0.3s ease 0s;
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    + .promotion-banner {
+        margin-left: 1rem;
+    }
+
+    .promotion-banner-content {
+        background-color: theme-color("container-bg");
+        min-height: 14.75rem;
+        width: 35rem;
+        border-radius: 1rem;
+        text-decoration: none;
+        overflow: hidden;
+        display: flex;
+
+        .promotion-banner-info {
+            padding: 2rem;
+            width: 52%;
+
+            h2 {
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                // white-space: normal;
+                margin-bottom: 0.25rem;
+            }
+
+            p {
+                color: theme-color("text-secondary");
+                line-height: 1rem;
+                font-size: 0.875rem;
+                margin-bottom: 0;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        .promotion-banner-image {
+            order: 2;
+            width: 48.58%;
+            position: relative;
+
+            .promotion-banner-star-badge {
+                position: absolute;
+                top: 0;
+                left: 3%;
+                z-index: 1;
+                width: 1em;
+                height: 1em;
+                font-size: 1.5rem;
+                line-height: 0;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+            width: 18rem;
+            min-height: 15.75rem;
+            height: 100%;
+            
+            .promotion-banner-image {
+                width: 100%;
+                overflow: hidden;
+                flex: 1;
+            }
+            
+            .promotion-banner-info {
+                order: 2;
+                width: 100%;
+                flex: 1;
+                overflow: hidden;
+            }
+        }
+    }
+}

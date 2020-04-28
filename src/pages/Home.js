@@ -4,6 +4,7 @@ import LoginRegisterButtons from '../components/LoginRegisterButtons';
 import PromoBanners from '../components/PromoBanners';
 import SportsCategories from '../components/SportsCategories';
 import PopularThemes from '../components/PopularThemes';
+import PromotionsBanners from '../components/PromotionsBanners';
 
 const Home = () => {
 
@@ -32,6 +33,12 @@ const Home = () => {
         <div className="row">
             <div className="col">
                 <PopularThemes />
+            </div>
+        </div>
+
+        <div className="row">
+            <div className="col">
+                <PromotionsBanners />
             </div>
         </div>
 

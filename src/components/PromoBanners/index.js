@@ -8,7 +8,7 @@ const PromoBanners = () => {
     return <div className="promo-banners">
         <div className="container">
             <div className="row">
-                <div className="col-md">
+                <div className="col-lg">
                     <PromoBanner 
                         image = {sportsBanner}
                         title = "SPORTS"
@@ -17,7 +17,7 @@ const PromoBanners = () => {
                         buttonLabel = "Go to Sports"
                         />
                 </div>
-                <div className="col-md">
+                <div className="col-lg">
                     <PromoBanner 
                         image = {casinoBanner}
                         title = "CASINO"
