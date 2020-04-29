@@ -48,12 +48,6 @@ const Home = () => {
                 <GameProviders />
             </div>
         </div>
-
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
     </>
 }
 

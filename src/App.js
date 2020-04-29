@@ -7,14 +7,16 @@ import {
 
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const Layout = props => {
   return (
     <>
-      <Navbar></Navbar>
-      <div className="container">
+      <Navbar />
+      <div className="container root">
         {props.children}
       </div>
+      <Footer />
     </>
   )
 }

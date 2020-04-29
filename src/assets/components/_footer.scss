@@ -1,0 +1,73 @@
+footer {
+    border-top: 1px solid theme-color("border-dark");
+    padding-top: 1.5rem;
+
+    .footer-logo-section {
+        .footer-description {
+            color: theme-color("text-secondary");
+            font-size: 0.75rem;
+            line-height: 1rem;
+
+            @include media-breakpoint-down(lg) {
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    .footer-links-section, .footer-follow-us-section {
+        padding: 0 1rem;
+    }
+
+    .footer-follow-us-section {
+        a {
+            background-color: theme-color("border-dark");
+            font-size: 1.25rem;
+            color: $white !important;
+            margin: 0 0.5rem 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 6.25rem;
+            display: inline-block !important;
+            border: 1px solid transparent;
+            line-height: 0 !important;
+            transition: border-color 0.2s ease 0s; 
+
+            &:hover {
+                border-color: theme-color("primary");
+            }
+        }
+    }
+
+    .footer-category {
+        color: theme-color("text-secondary");
+        margin-bottom: 1.5rem;
+
+        a {
+            text-decoration: none;
+            display: block;
+
+            &:hover {
+                color: theme-color("primary") !important;
+            }
+        }
+
+        .footer-category-title {
+            color: $white;
+            margin-bottom: 1.25rem;
+            font-size: 0.875rem;
+
+            a {
+                color: $white;
+                font-weight: 600;
+            }
+        }
+
+        .footer-category-content {
+            font-size: 0.875rem;
+
+            a {
+                color: theme-color("text-secondary");
+                line-height: 1.5rem;
+            }
+        }
+    }
+}
