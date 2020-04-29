@@ -1,20 +1,20 @@
 .payment-icons {
-    padding: 2rem 15px;
+    padding: 2rem 0;
     border-top: 1px solid theme-color("border-dark");
-    height: 6.125rem;
 
     .payment-icon {
+        flex: 1 1 0;
         text-align: center;
-        margin: 0px 1.5rem;
-        width: 3rem;
+        margin: 0px 0.9375rem;
+        width: 2.5rem;
         height: 100%;
         filter: grayscale(100%);
         opacity: 0.4;
         transition: all 0.3s ease 0s;
 
         img {
-            max-height: 2.5rem;
-            max-width: 100%;
+            max-height: 3.125rem;
+    max-width: 3rem;
         }
 
         &:hover {

@@ -2,11 +2,11 @@ import React from 'react';
 
 const PaymentIcons = (props) => {
 
-    return <a href={props.href}>
-        <div className="payment-icon">
-            <img src={props.image} alt={props.title} />
-        </div>
-    </a>;
+    return <div className="payment-icon">
+        <a href={props.href}>
+            <img src={props.image} alt={props.title} />   
+        </a>
+    </div>;
 }
 
 export default PaymentIcons;
