@@ -77,7 +77,7 @@ const GameProviders = () => {
                 image = {booongoLogo}
                 />
         </div>
-    </div>
+    </div>;
 }
 
 export default GameProviders;

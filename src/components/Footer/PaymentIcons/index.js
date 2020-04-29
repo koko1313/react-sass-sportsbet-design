@@ -68,7 +68,7 @@ const PaymentIcons = () => {
             image = {conifaIcon}
             title = "Conifa"
             href = "/#" />
-    </div>
+    </div>;
 }
 
 export default PaymentIcons;

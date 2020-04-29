@@ -37,7 +37,7 @@ const PopularThemes = () => {
                 title = "Support"
                 href = "/#" />
         </div>
-    </div>
+    </div>;
 }
 
 export default PopularThemes;

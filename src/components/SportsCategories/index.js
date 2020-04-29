@@ -132,7 +132,7 @@ const SportsCategories = () => {
                 title = "Specials"
                 href = "/#" />            
         </div>
-    </div>
+    </div>;
 }
 
 export default SportsCategories;

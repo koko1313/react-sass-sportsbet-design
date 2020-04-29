@@ -10,7 +10,7 @@ const PopularTheme = (props) => {
 
             <h3 className="popular-theme-title">{props.title}</h3>
         </div>
-    </a>
+    </a>;
 }
 
 export default PopularTheme;

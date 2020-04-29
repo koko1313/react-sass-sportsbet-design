@@ -41,7 +41,7 @@ const PromotionsBanners = () => {
                 href = "/#"
                 image = {whatBitcoinDid} />
         </div>
-    </div>
+    </div>;
 }
 
 export default PromotionsBanners;

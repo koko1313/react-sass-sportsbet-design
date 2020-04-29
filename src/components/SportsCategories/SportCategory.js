@@ -10,7 +10,7 @@ const SportCategory = (props) => {
 
             <div className="sport-category-title">{props.title}</div>
         </a>
-    </div>
+    </div>;
 }
 
 export default SportCategory;

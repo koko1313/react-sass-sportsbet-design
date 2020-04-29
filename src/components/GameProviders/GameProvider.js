@@ -8,7 +8,7 @@ const GameProvider = (props) => {
                 <img src={props.image} alt={props.title} />
             </div>
         </a>
-    </div>
+    </div>;
 }
 
 export default GameProvider;
