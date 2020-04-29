@@ -5,6 +5,7 @@ import PromoBanners from '../components/PromoBanners';
 import SportsCategories from '../components/SportsCategories';
 import PopularThemes from '../components/PopularThemes';
 import PromotionsBanners from '../components/PromotionsBanners';
+import GameProviders from '../components/GameProviders';
 
 const Home = () => {
 
@@ -42,19 +43,17 @@ const Home = () => {
             </div>
         </div>
 
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br />asd <br />asd <br /> asd <br /> asd <br />
-        
+        <div className="row">
+            <div className="col">
+                <GameProviders />
+            </div>
+        </div>
+
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
+        asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> asd <br /> 
     </>
 }
 

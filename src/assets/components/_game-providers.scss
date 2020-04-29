@@ -1,0 +1,26 @@
+.game-providers {
+    margin: 1rem 0;
+
+    .game-providers-buttons {
+        margin: 1rem 0;
+    }
+
+    .game-provider {
+        + .game-provider {
+            margin-left: 1rem;
+        }
+
+        .game-provider-content {
+            height: 3.75rem;
+            width: 11rem;
+            background-color: rgb(255, 255, 255);
+            border-radius: 4px;
+            padding: 1rem;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+}
