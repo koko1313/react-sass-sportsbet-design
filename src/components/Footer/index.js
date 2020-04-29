@@ -6,7 +6,7 @@ import FollowUsSection from './FollowUsSection';
 const Footer = () => {
 
     return <footer> 
-        <div className="container">
+        <div className="container footer">
             <div className="row">
                 
                     <div className="col-lg-2">
