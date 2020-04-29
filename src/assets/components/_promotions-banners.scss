@@ -29,7 +29,6 @@
             h2 {
                 font-size: 1.25rem;
                 line-height: 1.75rem;
-                // white-space: normal;
                 margin-bottom: 0.25rem;
             }
 
@@ -48,6 +47,7 @@
             order: 2;
             width: 48.58%;
             position: relative;
+            overflow: hidden;
 
             .promotion-banner-star-badge {
                 position: absolute;
@@ -76,7 +76,6 @@
             
             .promotion-banner-image {
                 width: 100%;
-                overflow: hidden;
                 flex: 1;
             }
             
